@@ -6,13 +6,23 @@ body {
 }
 
 .control {
-
+    display: flex;
+    background: hsl(228, 56%, 26%);
 }
 
 .storage {
+    display: flex;
+    background: hsl(228, 56%, 26%);
 
 }
 
 .gauge {
-    
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 250px;
+    height: 20px;
 }
