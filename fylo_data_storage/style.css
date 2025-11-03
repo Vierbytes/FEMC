@@ -1,0 +1,18 @@
+body {
+    background: hsl(229, 57%, 11%);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control {
+
+}
+
+.storage {
+
+}
+
+.gauge {
+    
+}
