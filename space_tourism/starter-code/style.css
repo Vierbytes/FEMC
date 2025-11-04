@@ -1,0 +1,52 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: hsl(230, 35%, 7%);
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+}
+
+.bg-home {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.4)),
+    url(./assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    transition: border-bottom 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.hero-title {
+    font-family: 'Bellefair', serif;
+    font-size: clamp(80px, 15vw, 150px);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.hero-subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(16px, 3vw, 28px);
+    letter-spacing: 4.75px;
+    color: hsl(231, 77%, 90%);
+    text-transform: uppercase;
+}
+
+.btn-explore {
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(230, 35%, 7%);
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
