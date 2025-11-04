@@ -6,9 +6,10 @@ body {
     background-image: url(./images/bg-desktop.png);
     background-size: cover;
     background-position: bottom center;
-    background-size: 100% 50%;
+    background-size: 100% 54%;
     background-repeat: no-repeat;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
     padding-top: 40vh;
     
 }
+
 .control {
     display: flex;
     flex-direction: column;
@@ -59,18 +61,11 @@ body {
     
 }
 
-.bar {
-    display: flex;
-    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-    width: 250px;
-    height: 20px;
-}
-
 .progress {
-    /* width: 30vw; */
     background: hsl(229, 57%, 11%);
     padding-right: 1rem;
 }
+
 .progress-bar {
     background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-top-right-radius: 5px;
@@ -96,6 +91,7 @@ body {
     position: absolute;
     right: -1px;
 }
+
 .graph {
     display: flex;
     flex-direction: column;
@@ -117,13 +113,12 @@ body {
 
 .attribution {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .badges {
     display: flex;
-    /* justify-content: space-evenly; */
     padding-left: 1rem;
     width: max-content;
     justify-content: space-around;
@@ -182,4 +177,3 @@ body {
     font-weight: 600;
     letter-spacing: 0.5px;
 }
-
