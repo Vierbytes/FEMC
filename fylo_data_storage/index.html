@@ -17,31 +17,54 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <div class="control">
-    <img src="images/logo.svg" alt="">
-  </div>
-  <div class="storage">
-    <p>
-      You’ve used 815 GB of your storage
-    </p>
-  </div>
-  <div class="gauge">
-    <div class="bar"></div>
-    <p>  
-      0 GB
-    </p>
-    <p>
-      1000 GB
-    </p>
-  </div>
-  
-  185 GB Left
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body>  
+  <div class="container">
+    <div class="control">
+      <img src="images/logo.svg" alt="logo" class="logo">
+      <div class="badges">
+        <div class="button1">
+                  <img src="images/icon-document.svg" alt="document button">
+        </div>
+        <div class="button2">
+                  <img src="images/icon-folder.svg" alt="folder button">
+        </div>
+        <div class="button3">
+                  <img src="images/icon-upload.svg" alt="upload button">
+        </div>
+      </div>
+    </div>
+    <div class="graph">
+      <div class="storage-header">
+        <span class="storage-amount">
+              185
+        </span>
+        <span class="storage-unit">
+              GB Left
+        </span>
+      </div>
+      <div class="storage-text">
+        <p>
+          You’ve used <strong>815 GB</strong> of your storage
+        </p>
+      </div>
+      <div class="progress progress-with-dot">
+        <div class="progress-bar" role="progressbar" style="width:80%">
+          <span class="progress-dot"></span>
+        </div>
+      </div>
+      <div class="atoz">
+        <p>  
+          0 GB
+        </p>
+        <p>
+          1000 GB
+        </p>
+      </div>
+    </div>
+  </div>  
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
 </body>
 </html>
